@@ -2,6 +2,10 @@
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Transparent background
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+
 -- Set highlight on search
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
