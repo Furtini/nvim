@@ -14,6 +14,8 @@ require('lazy').setup({
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
 
+  'nvim-telescope/telescope-ui-select.nvim',
+
   -- Useful plugin to show you pending keybinds.
   { 'folke/which-key.nvim',  opts = {} },
 
