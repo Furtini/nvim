@@ -62,5 +62,3 @@ vim.opt.completeopt = 'menuone,noselect'
 
 -- NOTE: You should make sure your terminal supports this
 vim.opt.termguicolors = true
-
-vim.cmd [[colorscheme tokyonight-night]]

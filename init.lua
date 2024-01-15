@@ -4,8 +4,6 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
-vim.opt.autochdir = true
-
 -- Install lazy.nvim plugin manager
 require 'lazy-bootstrap'
 
