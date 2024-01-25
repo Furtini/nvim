@@ -34,6 +34,7 @@ vim.opt.isfname:append("@-@")
 
 -- Make a 100 space column to visualize line length
 vim.opt.colorcolumn = "100"
+vim.cmd [[highlight ColorColumn ctermbg=238 guibg=grey21]]
 
 -- Sync clipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.
