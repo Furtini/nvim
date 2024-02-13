@@ -7,9 +7,8 @@ return {
 		"MunifTanjim/nui.nvim",
 	},
 	opts = {
-		filtered_items = {
-			filesystem = {
-				visible = true,
+		filesystem = {
+			filtered_items = {
 				hide_dotfiles = false,
 				hide_gitignored = true,
 			},
