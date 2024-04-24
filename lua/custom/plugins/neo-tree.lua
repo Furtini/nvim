@@ -13,14 +13,14 @@ return {
 				hide_gitignored = false,
 			},
 		},
-		event_handlers = {
-			{
-				-- Autoclose tree when file opened
-				event = "file_opened",
-				handler = function()
-					require("neo-tree.command").execute({ action = "close" })
-				end
-			},
-		}
+		-- event_handlers = {
+		-- 	{
+		-- 		-- Autoclose tree when file opened
+		-- 		event = "file_opened",
+		-- 		handler = function()
+		-- 			require("neo-tree.command").execute({ action = "close" })
+		-- 		end
+		-- 	},
+		-- }
 	}
 }
