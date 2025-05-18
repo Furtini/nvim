@@ -79,19 +79,19 @@ local servers = {
   -- gopls = {},
   -- pyright = {},
   -- rust_analyzer = {},
-  tsserver = {
-    capabilities = {
-      textDocument = {
-        completion = {
-          completionItem = {
-            snippetSupport = false
-          }
-        }
-      }
-    }
-  },
+  -- tsserver = {
+  --   capabilities = {
+  --     textDocument = {
+  --       completion = {
+  --         completionItem = {
+  --           snippetSupport = false
+  --         }
+  --       }
+  --     }
+  --   }
+  -- },
   -- html = { filetypes = { 'html', 'twig', 'hbs'} },
-  csharp_ls = {},
+  -- csharp_ls = {},
 
   lua_ls = {
     Lua = {
